@@ -1,0 +1,681 @@
+{
+	"info": {
+		"_postman_id": "7877191e-ecc1-4244-a2b4-2eeb4cd61804",
+		"name": "DEV bg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26273310"
+	},
+	"item": [
+		{
+			"name": "Quality Assurance",
+			"item": [
+				{
+					"name": "Search",
+					"item": [
+						{
+							"name": "Search jobs for QA in Sofia",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/?_job_location=sofiya",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									],
+									"query": [
+										{
+											"key": "_job_location",
+											"value": "sofiya"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search jobs for QA in Sofia&Remote",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/?_job_location=sofiya%2Cremote",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									],
+									"query": [
+										{
+											"key": "_job_location",
+											"value": "sofiya%2Cremote"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search job",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": []
+								},
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search jobs for QA in Sofia&Remote and intern",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/?_seniority=intern",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									],
+									"query": [
+										{
+											"key": "_job_location",
+											"value": "sofiya%2Cremote",
+											"disabled": true
+										},
+										{
+											"key": "_seniority",
+											"value": "intern"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search jobs with salary",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/?_salary=1",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									],
+									"query": [
+										{
+											"key": "_salary",
+											"value": "1"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search jobs without salary",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/?_salary=0",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									],
+									"query": [
+										{
+											"key": "_salary",
+											"value": "0"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search job from product companies",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/?_company_category=23",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									],
+									"query": [
+										{
+											"key": "_company_category",
+											"value": "23"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search job with paid leave",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/?_paid_leave=77",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									],
+									"query": [
+										{
+											"key": "_paid_leave",
+											"value": "77"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search jobs second page",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/?_job_location=sofiya%2Cremote&_seniority=intern%2Cjunior&_paged=2",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									],
+									"query": [
+										{
+											"key": "_job_location",
+											"value": "sofiya%2Cremote"
+										},
+										{
+											"key": "_seniority",
+											"value": "intern%2Cjunior"
+										},
+										{
+											"key": "_paged",
+											"value": "2"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search jobs for Team lead",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/automation-qa/?_seniority=grand-master",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"automation-qa",
+										""
+									],
+									"query": [
+										{
+											"key": "_seniority",
+											"value": "grand-master"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Search job with employees count",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "https://dev.bg/company/jobs/quality-assurance/?_it_employees_count=50",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"company",
+										"jobs",
+										"quality-assurance",
+										""
+									],
+									"query": [
+										{
+											"key": "_it_employees_count",
+											"value": "50"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Login",
+					"item": [
+						{
+							"name": "Login with wrong info",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "ajaxlogin",
+											"type": "text"
+										},
+										{
+											"key": "username",
+											"value": "paecheto@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "a",
+											"type": "text"
+										},
+										{
+											"key": "security",
+											"value": "7e43dce78e",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://dev.bg/wp-admin/admin-ajax.php",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"wp-admin",
+										"admin-ajax.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login with valid credentials",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "ajaxlogin",
+											"type": "text"
+										},
+										{
+											"key": "username",
+											"value": "paecheto@gmail.com",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "N@zs9sEPEC96fav",
+											"type": "text"
+										},
+										{
+											"key": "security",
+											"value": "7e43dce78e",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://dev.bg/wp-admin/admin-ajax.php",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"wp-admin",
+										"admin-ajax.php"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login with empty credentials",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "action",
+											"value": "ajaxlogin",
+											"type": "text"
+										},
+										{
+											"key": "username",
+											"value": "",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "",
+											"type": "text"
+										},
+										{
+											"key": "security",
+											"value": "7e43dce78e",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "https://dev.bg/wp-admin/admin-ajax.php",
+									"protocol": "https",
+									"host": [
+										"dev",
+										"bg"
+									],
+									"path": [
+										"wp-admin",
+										"admin-ajax.php"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Get subscription again",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "action",
+									"value": "miniboard_subscription",
+									"type": "text"
+								},
+								{
+									"key": "user_email",
+									"value": "paecheto@yahoo.com",
+									"type": "text"
+								},
+								{
+									"key": "miniboard",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "subscription_period",
+									"value": "period-daily",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://dev.bg/wp-admin/admin-ajax.php",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"bg"
+							],
+							"path": [
+								"wp-admin",
+								"admin-ajax.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get subscription for the first time",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "action",
+									"value": "miniboard_subscription",
+									"type": "text"
+								},
+								{
+									"key": "user_email",
+									"value": "sjv71252@omeie.com",
+									"type": "text"
+								},
+								{
+									"key": "miniboard",
+									"value": "7",
+									"type": "text"
+								},
+								{
+									"key": "subscription_period",
+									"value": "period-daily",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://dev.bg/wp-admin/admin-ajax.php",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"bg"
+							],
+							"path": [
+								"wp-admin",
+								"admin-ajax.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "refill?_locale=user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev.bg/wp-json/contact-form-7/v1/contact-forms/7860/refill?_locale=user",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"bg"
+							],
+							"path": [
+								"wp-json",
+								"contact-form-7",
+								"v1",
+								"contact-forms",
+								"7860",
+								"refill"
+							],
+							"query": [
+								{
+									"key": "_locale",
+									"value": "user"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Open job (hypoport-sofia-eood-manual-qa-specialist)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://dev.bg/company/jobads/hypoport-sofia-eood-manual-qa-specialist/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"bg"
+							],
+							"path": [
+								"company",
+								"jobads",
+								"hypoport-sofia-eood-manual-qa-specialist",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Feedback",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://dev.bg/wp-json/contact-form-7/v1/contact-forms/7860/feedback?_locale=user",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"bg"
+							],
+							"path": [
+								"wp-json",
+								"contact-form-7",
+								"v1",
+								"contact-forms",
+								"7860",
+								"feedback"
+							],
+							"query": [
+								{
+									"key": "_locale",
+									"value": "user"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Application form",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://dev.bg/wp-json/contact-form-7/v1/contact-forms/9940/feedback?_locale=user",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"bg"
+							],
+							"path": [
+								"wp-json",
+								"contact-form-7",
+								"v1",
+								"contact-forms",
+								"9940",
+								"feedback"
+							],
+							"query": [
+								{
+									"key": "_locale",
+									"value": "user"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
